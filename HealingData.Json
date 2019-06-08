@@ -8,7 +8,7 @@
 "RankRaid":"1" ,
 "RankMythic":"4" ,
 "Armor":"Cloth"
-}
+},
 {
 "id": 2,
 "class": "Druid",
@@ -17,7 +17,7 @@
   "RankRaid":"5" ,
 "RankMythic":"1" ,
 "Armor":"Leather"
-}
+},
 {
 "id": 3,
 "class": "Shaman",
