@@ -7,7 +7,7 @@
   "Description":"",
 "RankRaid":"1" ,
 "RankMythic":"4" ,
-"Armor":"Cloth",
+"Armor":"Cloth"
 }
 {
 "id": 2,
@@ -16,7 +16,7 @@
 "Description":"",
   "RankRaid":"5" ,
 "RankMythic":"1" ,
-"Armor":"Leather",
+"Armor":"Leather"
 }
 {
 "id": 3,
@@ -25,5 +25,5 @@
 "Description":"",
   "RankRaid":"3" ,
 "RankMythic":"5" ,
-"Armor":"Mail",
+"Armor":"Mail"
 }]}
