@@ -4,7 +4,7 @@
 "id": 1,
 "class": "Priest",
 "image":"https://cdn0.iconfinder.com/data/icons/world-of-warcraft-wow-faction-and-class/199/Priest-512.png" ,
-  "Description":"",
+  "Description":"Learn how to harness the light and shadow to your advantage, healing your allies and smiting your foes.",
 "RankRaid":"1" ,
 "RankMythic":"4" ,
 "Armor":"Cloth"
@@ -13,7 +13,7 @@
 "id": 2,
 "class": "Druid",
 "image":"https://gamepedia.cursecdn.com/wowpedia/thumb/e/ec/Druid_Crest.png/250px-Druid_Crest.png?version=9f2f4cd2abd8a66b507e501cae62e139" ,
-"Description":"",
+"Description":"Use the forces of nature to bring life and healing to those around you.",
   "RankRaid":"5" ,
 "RankMythic":"1" ,
 "Armor":"Leather"
@@ -22,7 +22,7 @@
 "id": 3,
 "class": "Shaman",
 "image":"https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5706a959-4284-4f67-bdcf-015206d3ef6a/da20vid-0afdfeb2-b889-47cf-9e2b-036eb16d6ea7.jpg/v1/fill/w_894,h_894,q_70,strp/world_of_warcraft___shaman_symbol_by_cirbani_da20vid-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzU3MDZhOTU5LTQyODQtNGY2Ny1iZGNmLTAxNTIwNmQzZWY2YVwvZGEyMHZpZC0wYWZkZmViMi1iODg5LTQ3Y2YtOWUyYi0wMzZlYjE2ZDZlYTcuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.D4emcv6S3BRCjz0oYf8MKNmB6PKPOdMpW0Y2bwAEKro" ,
-"Description":"",
+"Description":"Harness the elements to soothe your allies wounds, and crush your enemies beneath the earth.",
   "RankRaid":"3" ,
 "RankMythic":"5" ,
 "Armor":"Mail"
