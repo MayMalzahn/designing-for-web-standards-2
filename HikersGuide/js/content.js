@@ -5,7 +5,7 @@
 var xhr = new XMLHttpRequest();
 xhr.onload = function()
 {
-	 var data = JSON.parse(xhr.responseText);
+	var data = JSON.parse(xhr.responseText);
 	
 	var footerSelect = document.querySelector('#foot');
 	if(footerSelect)
