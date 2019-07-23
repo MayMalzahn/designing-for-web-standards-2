@@ -29,8 +29,8 @@ xhr.onload = function()
 	{
 		for(var b = 0; b < 3; b++)
 		{
-			blogSelect.querySelectorAll('h2')[b].innerHTML = data.posts[b].title;
-			blogSelect.querySelectorAll('h3')[b].innerHTML = data.posts[b].postDate;
+			blogSelect.querySelectorAll('h3')[b].innerHTML = data.posts[b].title;
+			blogSelect.querySelectorAll('h4')[b].innerHTML = data.posts[b].postDate;
 			blogSelect.querySelectorAll('p')[b].innerHTML = data.posts[b].text;
 		}
 	}
@@ -41,8 +41,8 @@ xhr.onload = function()
 		for(var c = 0; c < 3; c++)
 		{
 			
-			eventSelect.querySelectorAll('h2')[c].innerHTML = data.events[c].title;
-			eventSelect.querySelectorAll('h3')[c].innerHTML = data.events[c].date;
+			eventSelect.querySelectorAll('h3')[c].innerHTML = data.events[c].title;
+			eventSelect.querySelectorAll('h4')[c].innerHTML = data.events[c].date;
 			eventSelect.querySelectorAll('p')[c].innerHTML = data.events[c].text;
 			
 		}
