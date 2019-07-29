@@ -19,7 +19,7 @@ xhr.onload = function()
 		}
 		for(var a = 0; a < 4; a++)
 		{
-			footerSelect.querySelectorAll('#hikerList li')[a].innerHTML = data.hikers[a].firstname + " " + data.hikers[a].lastname;
+			footerSelect.querySelectorAll('#hikerList li')[a].innerHTML ="<img src='images/user.png' alt='user'>"+ data.hikers[a].firstname + " " + data.hikers[a].lastname;
 		}
 	}
 	
@@ -27,7 +27,7 @@ xhr.onload = function()
 	
 	if(blogSelect)
 	{
-		for(var b = 0; b < 3; b++)
+		for(var b = 0; b < 6; b++)
 		{
 			blogSelect.querySelectorAll('h3')[b].innerHTML = data.posts[b].title;
 			blogSelect.querySelectorAll('h4')[b].innerHTML = data.posts[b].postDate;

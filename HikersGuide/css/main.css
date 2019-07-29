@@ -2,6 +2,163 @@
 ================================================== 
 ================================================== */
 
-html {
+
+	/*main styles*/
+	body
+	{
+		background: #222222;
+	}
+
+header
+{
+	background: #222222 url("../images/hikers1001.jpg");
 	
 }
+header img
+{
+	height: auto;
+	width:auto;
+}
+
+footer
+{
+	background: #000000;
+	display:block;
+	overflow: auto;
+	
+}
+
+nav
+{
+	text-align: right;
+	color: #eeeeee;
+	text-transform: capitalize;
+	
+	
+	
+	
+}
+nav li:hover
+{
+	opacity: 1;
+}
+nav li
+{
+	font-weight: bold;
+	opacity: .5;
+	display: inline-block;
+	list-style: none;
+	border-right: 1px solid #000000;
+	font-variant: small-caps;
+	
+	
+}
+
+nav li:last-child
+{
+	border-right: none;
+}
+
+img
+{
+	height: 500px;
+	width: 1000px;
+}
+
+	p
+	{
+		color: #888888;
+		font-family: program, sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14pt;
+		
+	}
+	h2
+	{
+		color: #EEEEEE;
+		font-family: program, sans-serif;
+		font-style: normal;
+		font-weight: 900;
+		font-size: 35pt;
+	}
+	h3
+	{
+		color: #cccccc;
+		font-family: Georgia, sans-serif;
+		font-weight: bold;
+		font-size: 24pt;
+	}
+	h4
+	{
+		color: #aaaaaa;
+		font-family: program, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 18pt;
+	}
+	h5
+	{
+		color: #aaaaaa;
+		font-family: program, sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 14pt;
+	}
+
+#blog
+{
+	display: inline-grid;
+	grid-template-columns: repeat(3, minmax(auto,1fr));
+	grid-auto-rows: minmax(150px, auto);
+	grid-gap: 1em;
+}
+
+#foot li
+{
+	color: #888888;
+		font-family: program, sans-serif;
+		font-size: 14pt;
+	list-style: none;
+	
+}
+#smedia li
+{
+	display: inline-block;
+}
+
+#foot img
+{
+	height: auto;
+	width: auto;
+	
+}
+#smedia img
+{
+	opacity: .5;
+}
+#smedia img:hover
+{
+	opacity: 1;
+}
+
+#eventList
+{
+	float:left;
+}
+
+#hikerList
+{
+	float:left;
+}
+#smedia
+{
+	position: relative;
+	bottom: 0;
+}
+#join
+{
+	background: #1abc9c;
+}
+	
+	
