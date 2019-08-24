@@ -1,7 +1,35 @@
 /* Bike Shop CSS
 ================================================== 
 ================================================== */
+h2{font-family: Program, sans-serif;color: #888888;font-size: 1.625em;}
+h3{font-family: Program, sans-serif;color: #DDDDDD;font-size: 1.250em; font-weight: bold;}
+h4{font-family: Program, sans-serif;color: #FFFFFF;font-size: 1em; font-weight: bold;}
+h5{font-family: Program, sans-serif;color: #888888;font-size: 1em;}
+h6{font-family: Program, sans-serif;color: #888888;font-size: 1em;}
+p{font-family: Program, sans-serif;color: #888888; font-size: 1em;}
+nav{color:#111111; opacity: .85;}
+nav:hover{color:#DDDDDD;opacity: 1;}
+header{background-image: url("../images/banner.jpg");background-repeat: no-repeat;margin:0px;}
+header img{height: auto; width: auto;}
+#homeNav{background-color: #111111;margin:0px;}
+#homeNav img{height: 250px; width:250px;}
+#homeNav h2:first-of-type{float: left;}
+#homeNav h2:nth-of-type(2){float:left;}
+#homeNav h2:last-of-type{float:right;}
+#featured{margin: 0px;}
+#memberBenefits{background-image: url("../images/gears.jpg");background-repeat: no-repeat;text-align: center;margin: 0px;}
+#memberBenefits article:first-of-type{float:left;}
+#memberBenefits article:nth-of-type(2){float:left;}
+#memberBenefits article:last-of-type{float:right;}
+footer{background-color: #111111}
+#products{}
+#events{}
+img{height: 500px;width: 500px;}
+#social{float:right;}
+#social li{ opacity: .25;}
+#social li:hover{opacity: 1;}
+#getHelp{float:left;}
+#footerOther{float:left;}
+#news{float:left;}
+#footerBottom{}
 
-html {
-	
-}

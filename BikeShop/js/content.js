@@ -11,7 +11,7 @@ xhr.onload = function()
 	var eventsSelect = document.querySelector('#events');
 	if(eventsSelect)
 	{
-		for(var i = 0; i < 5; i++)
+		for(var i = 0; i < data.events.length; i++)
 		{
 			var articleSelectEvents = eventsSelect.querySelectorAll('article')[i];
 			articleSelectEvents.querySelector('h3').innerHTML = data.events[i].title;
@@ -24,7 +24,7 @@ xhr.onload = function()
 	var productsSelect = document.querySelector('#products');
 	if(productsSelect)
 	{
-		for(var a = 0; a < 6; a++)
+		for(var a = 0; a < data.products.length; a++)
 		{
 			var articleSelectProducts = productsSelect.querySelectorAll('article')[a];
 			articleSelectProducts.querySelectorAll('img')[0].src = data.products[a].imageURL;
@@ -38,7 +38,7 @@ xhr.onload = function()
 	var featuredSelect = document.querySelector('#featured');
 	if(featuredSelect)
 	{
-		for(var b = 0; b < 6; b++)
+		for(var b = 0; b < data.products.length; b++)
 		{
 			var articleSelectFeatured = featuredSelect.querySelectorAll('article')[b];
 			articleSelectFeatured.querySelectorAll('img')[0].src = data.products[b].imageURL;
@@ -51,7 +51,7 @@ xhr.onload = function()
 	var memberSelect = document.querySelector('#memberBenefits');
 	if(memberSelect)
 	{
-		for(var c = 0; c < 2; c++)
+		for(var c = 0; c < data.benefits.length; c++)
 		{
 			var articleSelectBenefits = memberSelect.querySelectorAll('article')[c];
 			articleSelectBenefits.querySelector('p').innerHTML = data.benefits[c].description;
