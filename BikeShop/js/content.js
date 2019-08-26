@@ -99,6 +99,47 @@ xhr.onload = function()
 			articleSelectFeatured.querySelector('h4').innerHTML = data.products[b].title;
 			articleSelectFeatured.querySelectorAll('p')[0].innerHTML = data.products[b].description;
 			articleSelectFeatured.querySelectorAll('p')[1].innerHTML = data.products[b].price;
+			var rating = data.products[b].rating;
+				if(rating == .5)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/.5 star.png";
+			}
+			else if(rating == 1)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/1 star.png";
+			}
+			else if(rating == 1.5)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/1.5 star.png";
+			}
+			else if(rating == 2)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/2 star.png";
+			}
+			else if(rating == 2.5)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/2.5 star.png";
+			}
+			else if(rating == 3)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/3 star.png";
+			}
+			else if(rating == 3.5)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/3.5 star.png";
+			}
+			else if(rating == 4)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/4 star.png";
+			}
+			else if(rating == 4.5)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/4.5 star.png";
+			}
+			else if(rating ==5)
+			{
+				articleSelectFeatured.querySelectorAll('img')[1].src = "images/5 star.png";
+			}
 		}
 	}
 	
