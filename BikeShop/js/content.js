@@ -32,31 +32,77 @@ xhr.onload = function()
 			articleSelectProducts.querySelectorAll('p')[0].innerHTML = data.products[a].description;
 			articleSelectProducts.querySelectorAll('p')[1].innerHTML = data.products[a].rating;
 			articleSelectProducts.querySelector('h3').innerHTML = data.products[a].price;
-		}
-	}
-	
-	var featuredSelect = document.querySelector('#featured');
-	if(featuredSelect)
-	{
-		for(var b = 0; b < data.products.length; b++)
-		{
-			var articleSelectFeatured = featuredSelect.querySelectorAll('article')[b];
-			articleSelectFeatured.querySelectorAll('img')[0].src = data.products[b].imageURL;
-			articleSelectFeatured.querySelector('h4').innerHTML = data.products[b].title;
-			articleSelectFeatured.querySelectorAll('p')[0].innerHTML = data.products[b].description;
-			articleSelectFeatured.querySelectorAll('p')[1].innerHTML = data.products[b].price;
+			var rating = data.products[a].rating;
+			if(rating == .5)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/.5 star.png";
+			}
+			else if(rating == 1)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/1 star.png";
+			}
+			else if(rating == 1.5)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/1.5 star.png";
+			}
+			else if(rating == 2)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/2 star.png";
+			}
+			else if(rating == 2.5)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/2.5 star.png";
+			}
+			else if(rating == 3)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/3 star.png";
+			}
+			else if(rating == 3.5)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/3.5 star.png";
+			}
+			else if(rating == 4)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/4 star.png";
+			}
+			else if(rating == 4.5)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/4.5 star.png";
+			}
+			else if(rating ==5)
+			{
+				articleSelectProducts.querySelectorAll('img')[1].src = "images/5 star.png";
+			}
+			
+			
 		}
 	}
 	
 	var memberSelect = document.querySelector('#memberBenefits');
 	if(memberSelect)
 	{
-		for(var c = 0; c < data.benefits.length; c++)
+		for(var c = 0; c < 2; c++)
 		{
 			var articleSelectBenefits = memberSelect.querySelectorAll('article')[c];
 			articleSelectBenefits.querySelector('p').innerHTML = data.benefits[c].description;
 		}
 	}
+	
+	var featuredSelect = document.querySelector('#featured');
+	if(featuredSelect)
+	{
+		for(var b = 0; b < 6; b++)
+		{
+			var articleSelectFeatured = featuredSelect.querySelectorAll('article')[b];
+			articleSelectFeatured.querySelectorAll('img')[0].src = data.products[b].imageURL;
+			articleSelectFeatured.querySelectorAll('img')[1].src = "images/4 star.png";
+			articleSelectFeatured.querySelector('h4').innerHTML = data.products[b].title;
+			articleSelectFeatured.querySelectorAll('p')[0].innerHTML = data.products[b].description;
+			articleSelectFeatured.querySelectorAll('p')[1].innerHTML = data.products[b].price;
+		}
+	}
+	
+	
 	
 	
 };

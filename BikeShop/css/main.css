@@ -7,29 +7,72 @@ h4{font-family: Program, sans-serif;color: #FFFFFF;font-size: 1em; font-weight: 
 h5{font-family: Program, sans-serif;color: #888888;font-size: 1em;}
 h6{font-family: Program, sans-serif;color: #888888;font-size: 1em;}
 p{font-family: Program, sans-serif;color: #888888; font-size: 1em;}
-nav{color:#111111; opacity: .85;}
-nav:hover{color:#DDDDDD;opacity: 1;}
-header{background-image: url("../images/banner.jpg");background-repeat: no-repeat;margin:0px;}
+nav{text-align: center;text-transform: capitalize;background-color: #444444;border-top: #C0392B medium solid;}
+nav li{color:#111111;display: inline-block;opacity: .85;}
+nav li:hover{color:#DDDDDD;opacity: 1;}
+header{background-image: url("../images/banner.jpg");background-repeat: no-repeat;margin:0px;height: 500px;object-fit: cover;background-size:cover;}
 header img{height: auto; width: auto;}
-#homeNav{background-color: #111111;margin:0px;}
+#homeNav{background-color: #111111;margin:0px;display:inline-block;padding:50px;background-size:cover;overflow:inherit;}
+#homeNav article{padding:150px;margin: 0px;}
 #homeNav img{height: 250px; width:250px;}
 #homeNav h2:first-of-type{float: left;}
 #homeNav h2:nth-of-type(2){float:left;}
 #homeNav h2:last-of-type{float:right;}
 #featured{margin: 0px;}
-#memberBenefits{background-image: url("../images/gears.jpg");background-repeat: no-repeat;text-align: center;margin: 0px;}
-#memberBenefits article:first-of-type{float:left;}
-#memberBenefits article:nth-of-type(2){float:left;}
-#memberBenefits article:last-of-type{float:right;}
-footer{background-color: #111111}
-#products{}
-#events{}
+#featured article{height: 480px;width: 400px;}
+#featured article:nth-of-type(3){float:right;}
+#featured article:nth-of-type(1){float:left;}
+#featured article:nth-of-type(2){float:left;}
+#featured article:nth-of-type(6){float:right;}
+#featured article:nth-of-type(4){float:left;}
+#featured article:nth-of-type(5){float:left;}
+#featured img{height: 200px; width:280px;}
+#featured img:last-of-type{height: auto;width: auto;}
+#memberBenefits{background-image: url("../images/gears.jpg");background-repeat: no-repeat;object-fit: cover; text-align: center;margin: 0px; display:inline-block;width:100%;overflow: auto;background-size:cover;background-color: #3F3F3F; background-blend-mode:darken;}
+#memberBenefits h2{color: #111111;}
+#memberBenefits p{color: #666666;}
+#memberBenefits article{height: 200px;width: 200px;background-repeat: no-repeat;background-position: top;padding:100px;}
+#memberBenefits article:first-of-type{float:left;background-image: url("../images/truck.png");}
+#memberBenefits article:nth-of-type(2){float:left;background-image: url("../images/wrench.png");}
+#memberBenefits article:last-of-type{float:right;background-image: url("../images/envelope.png");}
+footer{background-color: #111111;margin:0px;object-fit: cover;display:inline-block;overflow: auto;}
+footer section{padding:50px;}
+footer li{color:#FFFFFF;}
+#products{margin: 0px;}
+#products h2{text-align: center;}
+#products article{height: 480px;width: 400px;margin: 5px;}
+#products article:nth-of-type(3){float:right;}
+#products article:nth-of-type(1){float:left;}
+#products article:nth-of-type(2){float:left;}
+#products article:nth-of-type(6){float:right;}
+#products article:nth-of-type(4){float:left;}
+#products article:nth-of-type(5){float:left;}
+#products img{height: 200px; width:280px;}
+#products img:last-of-type{height: auto;width: auto;}
+#products p:last-of-type{visibility: hidden;}
+#events{margin: 0px;background-color: #888888;display: inline-block;}
+#events h2{color: #111111;text-align: center;}
+#events article{height: 375px;width: 300px;background-color: #FFFFFF;text-align: center;margin:55px;}
+#events article:nth-of-type(3){float:right;}
+#events article:nth-of-type(1){float:left;}
+#events article:nth-of-type(2){float:left;}
+#events article:nth-of-type(6){float:right;}
+#events article:nth-of-type(4){float:left;}
+#events article:nth-of-type(5){float:left;}
+#events img{height: 150px; width:300px;}
 img{height: 500px;width: 500px;}
 #social{float:right;}
-#social li{ opacity: .25;}
+#social li{ opacity: .25;display: inline;}
 #social li:hover{opacity: 1;}
+#social li:nth-of-type(1){background-image: url("../images/social FB.png");background-repeat: no-repeat;}
+#social li:nth-of-type(2){background-image: url("../images/social twitter.png");background-repeat: no-repeat;}
+#social li:nth-of-type(3){background-image: url("../images/social YT.png");background-repeat: no-repeat;}
+#social li:nth-of-type(4){background-image: url("../images/social insta.png");background-repeat: no-repeat;}
 #getHelp{float:left;}
 #footerOther{float:left;}
 #news{float:left;}
-#footerBottom{}
+#footerBottom{float: left;}
+#footerBottom li{ display: inline;}
+#footerBottom h5{display: inline;}
+html{margin: 0;}
 
