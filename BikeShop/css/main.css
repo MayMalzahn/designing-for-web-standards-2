@@ -50,6 +50,7 @@ header img{height: auto; width: auto;}
 #products img{height: 200px; width:280px;}
 #products img:last-of-type{height: auto;width: auto;}
 #products p:last-of-type{visibility: hidden;}
+#products button{display: block; margin: 0 auto;}
 #events{margin: 0px;background-color: #888888;display: inline-block;}
 #events h2{color: #111111;text-align: center;}
 #events article{height: 375px;width: 300px;background-color: #FFFFFF;text-align: center;margin:55px;}
